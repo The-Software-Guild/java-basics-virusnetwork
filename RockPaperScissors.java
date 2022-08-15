@@ -113,6 +113,9 @@ public class RockPaperScissors {
      * Works out who won the game, informing the user then resets tallies to 0
      */
     private static void endGame() {
+        System.out.println("Ties:\t"+ties);
+        System.out.println("Player wins:\t"+playerWins);
+        System.out.println("Computer wins:\t"+computerWins);
         if (playerWins > ties && playerWins > computerWins) {
             System.out.println("Player won game");
         } else if (computerWins > playerWins && computerWins > ties) {
