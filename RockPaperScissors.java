@@ -6,6 +6,7 @@ public class RockPaperScissors {
     static int rounds = -1;
     static Scanner scan = new Scanner(System.in);
     static Random rand = new Random(3);
+    
     // ! 1 = Rock, 2 = paper, 3 = scissors
     static private int playerHand = -1;
     static private int computerHand = -1;

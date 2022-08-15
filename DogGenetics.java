@@ -46,6 +46,7 @@ public class DogGenetics {
 
         percentArray.add(rand.nextInt(20));
         int lastPercent = percentArray.get(0);
+        
         for (int i = 0; i < 3; i++) {
             int nextNum = rand.nextInt(20) + 1;
             lastPercent += nextNum;
