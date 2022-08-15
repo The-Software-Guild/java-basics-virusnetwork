@@ -6,7 +6,7 @@ public class RockPaperScissors {
     static int rounds = -1;
     static Scanner scan = new Scanner(System.in);
     static Random rand = new Random(3);
-    
+
     // ! 1 = Rock, 2 = paper, 3 = scissors
     static private int playerHand = -1;
     static private int computerHand = -1;
@@ -30,7 +30,7 @@ public class RockPaperScissors {
             endGame();
             System.out.println("Would you like to play again? Yes or No");
             String again = scan.next();
-            if (again.toLowerCase().equals("No") || again.toLowerCase().equals("n")) {
+            if (again.toLowerCase().equals("no") || again.toLowerCase().equals("n")) {
                 keepPlaying = false;
             }
 
