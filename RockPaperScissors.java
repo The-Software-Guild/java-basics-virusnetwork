@@ -58,6 +58,7 @@ public class RockPaperScissors {
 
     /**
      * Converts given int into the string rock,paper or scissors
+     * 
      * @param i player's or computer's hand
      * @return String of either Rock, Paper or Scissors
      */
@@ -71,7 +72,8 @@ public class RockPaperScissors {
     }
 
     /**
-     * Asks the player how many rounds and sets global variable rounds to given number
+     * Asks the player how many rounds and sets global variable rounds to given
+     * number
      * won't accept any value outside of 1-10, else it will exit program
      */
     private static void howManyRounds() {
@@ -87,7 +89,7 @@ public class RockPaperScissors {
 
     /**
      * Asks the user to choose their next hand, either 1, 2 or 3 and sets variable
-     * Set's computer's hand based off random 
+     * Set's computer's hand based off random
      * won't accept any int outside of 1,2,3 and will crash if non-int is entered
      */
     private static void chooseHand() {

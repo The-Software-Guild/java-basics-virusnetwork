@@ -44,7 +44,7 @@ public class DogGenetics {
         ArrayList<Integer> percentArray = new ArrayList<>();
         Random rand = new Random();
 
-        percentArray.add(rand.nextInt(20));
+        percentArray.add(rand.nextInt(20)+1);
         int lastPercent = percentArray.get(0);
         
         for (int i = 0; i < 3; i++) {
